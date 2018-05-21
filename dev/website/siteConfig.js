@@ -18,7 +18,6 @@ const siteConfig = {
   tagline: 'STEMHub Foundation founded by Dr. Adeola Olubamiji in July 2017, is a non-profit organization dedicated to stimulating interest in STEM and raising future STEM leaders from minority communities, and increasing the number of women and minorities in STEM careers.',
   url: 'https://stemhubfoundation.com/' /* your website url */,
   baseUrl: '/',
-  // baseUrl: 'https://uchi.me/stemhubfoundation.com/' /* base url for your project */,
   customDocsPath:'about',
 
   // Used for publishing and more
@@ -30,13 +29,7 @@ const siteConfig = {
     {doc: 'stemming', label: 'STEMing'},
     {doc: 'stemstars', label: 'STEMstars'},
     {doc: 'stemspires', label: 'STEMSpires'},
-    // { href: "https://vendor.lushplans.com/", label: "Vendors" },
     {blog: true, label: 'Blog'},
-    // {doc: 'culture', label: 'Careers'},
-    // {doc: 'why', label: 'Why Us'},
-    // { href: "culture", label: "Careers" },
-    // {page: 'help', label: 'Help'},
-    // {page: 'career', label: 'Career page'},
   ],
 
   // If you have users set above, you add it here:
@@ -52,18 +45,6 @@ const siteConfig = {
     primaryColor: '#FF4000',
     secondaryColor: '#d63200',
   },
-
-  /* custom fonts for website */
-  /*fonts: {
-    myFont: [
-      "Times New Roman",
-      "Serif"
-    ],
-    myOtherFont: [
-      "-apple-system",
-      "system-ui"
-    ]
-  },*/
 
   // This copyright info is used in /core/Footer.js and blog rss/atom feeds.
   copyright:
@@ -98,12 +79,3 @@ const siteConfig = {
 };
 
 module.exports = siteConfig;
-
-// {
-//   "careers": {
-//     "The Company": ["culture"],
-//     "Jobs - Business": ["marketing-intern"],
-//     "Jobs - Engineering": ["fullstack-developer-2", "fullstack-developer-1"]
-//   }
-// }
-
